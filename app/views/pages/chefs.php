@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 $featuredChefs = array_slice($chefs, 0, 2);
 $chefImages = [
-    '/assets/img/chefs/CHANDAN SINGH.jpeg',
-    '/assets/img/chefs/BILLU YADAV.jpeg',
+    '/assets/img/chefs/chandan-singh.jpeg',
+    '/assets/img/chefs/billu-yadav.jpeg',
 ];
 $chefDetails = [
     [
@@ -27,7 +27,7 @@ $chefDetails = [
 <section class="section">
     <div class="container card-grid small-grid">
         <?php foreach ($featuredChefs as $index => $chef): ?>
-            <?php $chefImage = $chefImages[$index] ?? '/assets/img/chefs/CHANDAN SINGH.jpeg'; ?>
+            <?php $chefImage = $chefImages[$index] ?? '/assets/img/chefs/chandan-singh.jpeg'; ?>
             <?php $details = $chefDetails[$index] ?? ['origin' => '', 'about' => '']; ?>
             <article class="card chef-card reveal">
                 <img class="chef-photo" src="<?= htmlspecialchars($chefImage) ?>" alt="<?= htmlspecialchars($chef['name']) ?>" loading="lazy" width="1080" height="1080">

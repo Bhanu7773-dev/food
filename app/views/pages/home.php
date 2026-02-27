@@ -2,21 +2,21 @@
 declare(strict_types=1);
 
 $brandCoverImages = [
-    '/assets/img/brand/covers/Kulhad Biryani.jpeg',
-    '/assets/img/brand/covers/Matka Biryani.jpeg',
-    '/assets/img/brand/covers/Biryaniwalas.jpeg',
-    '/assets/img/brand/covers/Biryani King.jpeg',
-    '/assets/img/brand/covers/Handi Biryani.jpeg',
-    '/assets/img/brand/covers/Biryani Junction.jpeg',
-    '/assets/img/brand/covers/Biryani Farm.jpeg',
-    '/assets/img/brand/covers/House of Biryani.jpeg',
-    '/assets/img/brand/covers/The earthen pot biryani.jpeg',
+    '/assets/img/brand/covers/kulhad-biryani.jpeg',
+    '/assets/img/brand/covers/matka-biryani.jpeg',
+    '/assets/img/brand/covers/biryaniwalas.jpeg',
+    '/assets/img/brand/covers/biryani-king.jpeg',
+    '/assets/img/brand/covers/handi-biryani.jpeg',
+    '/assets/img/brand/covers/biryani-junction.jpeg',
+    '/assets/img/brand/covers/biryani-farm.jpeg',
+    '/assets/img/brand/covers/house-of-biryani.jpeg',
+    '/assets/img/brand/covers/the-earthen-pot-biryani.jpeg',
 ];
 
 $featuredChefs = array_slice($chefs, 0, 2);
 $chefImages = [
-    '/assets/img/chefs/CHANDAN SINGH.jpeg',
-    '/assets/img/chefs/BILLU YADAV.jpeg',
+    '/assets/img/chefs/chandan-singh.jpeg',
+    '/assets/img/chefs/billu-yadav.jpeg',
 ];
 ?>
 <section class="hero-video-section" id="hero-video"
@@ -61,7 +61,7 @@ $chefImages = [
         <div class="brands-grid">
             <?php foreach ($brands as $index => $brand): ?>
                 <?php $name = (string) ($brand['name'] ?? ''); ?>
-                <?php $cover = $brandCoverImages[$index] ?? '/assets/img/brand/covers/House of Biryani.jpeg'; ?>
+                <?php $cover = $brandCoverImages[$index] ?? '/assets/img/brand/covers/house-of-biryani.jpeg'; ?>
                 <article class="brand-card reveal home-brand-card">
                     <img class="brand-cover-image home-brand-cover" src="<?= htmlspecialchars($cover) ?>" alt="<?= htmlspecialchars($name) ?>" loading="lazy" width="1080" height="1080">
                     <div class="brand-card-body">
@@ -100,7 +100,7 @@ $chefImages = [
             <h2>Featured Chefs</h2>
             <div class="card-grid small-grid">
                 <?php foreach ($featuredChefs as $index => $chef): ?>
-                    <?php $chefImage = $chefImages[$index] ?? '/assets/img/chefs/CHANDAN SINGH.jpeg'; ?>
+                    <?php $chefImage = $chefImages[$index] ?? '/assets/img/chefs/chandan-singh.jpeg'; ?>
                     <article class="card chef-card reveal">
                         <img class="chef-photo" src="<?= htmlspecialchars($chefImage) ?>" alt="<?= htmlspecialchars($chef['name']) ?>" loading="lazy" width="1080" height="1080">
                         <h3><?= htmlspecialchars($chef['name']) ?></h3>
