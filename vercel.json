@@ -4,6 +4,22 @@
     {
       "src": "public/index.php",
       "use": "vercel-php@0.7.2"
+    },
+    {
+      "src": "public/assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/uploads/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/robots.txt",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/sitemap.xml",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
