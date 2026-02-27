@@ -1,0 +1,27 @@
+{
+  "brandName": "ROSHANI FOODS AND BEVRAGES",
+  "tagline": "The Authentic Cloud Kitchen Chain",
+  "phone": "8504040808",
+  "email": "roshanifoodsandbevrages@gmail.com",
+  "address": "47,49 Inqlaab Appartments, Moti Nagar, Road No 3, Vaishali Nagar, Jaipur 302021",
+  "whatsapp": "918504040808",
+  "registrations": {
+    "udyam": "UDYAM-RJ-17-0556232",
+    "sansthaAadhaar": "RJ/2026/778845"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/share/18P1MSjQi3/",
+    "instagram": "https://www.instagram.com/rfab.jaipur?igsh=YzJnZTQ5c2Y1czU1"
+  },
+  "links": {
+    "zomato": "https://www.zomato.com",
+    "swiggy": "https://www.swiggy.com"
+  },
+  "legal": {
+    "copyright": "Copyright 2026 RFAB",
+    "credit": "Web development by RFAB Digital"
+  },
+  "seo": {
+    "description": "Premium, authentic biryani experiences by RFAB."
+  }
+}
